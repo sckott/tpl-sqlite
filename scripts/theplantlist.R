@@ -18,5 +18,11 @@ dbListTables(x)
 # test it
 dbGetQuery(x, 'SELECT * FROM tpl LIMIT 5')
 
+# zip the sqlite file
+library("zip")
+zip::zipr("data/plantlist.zip", "data/plantlist.sqlite",
+    include_directories = FALSE)
+
 # cleanup
 dbDisconnect(x)
+unlink("data/plantlist.sqlite")
