@@ -1,13 +1,12 @@
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-
-taxize database files
+ThePlantList as SQLite
 ======================
 
-This repo contains files used for the [`taxizedb`](https://github.com/ropensci/taxizedb) package. Head to [`taxizedb`](https://github.com/ropensci/taxizedb) repo to get `taxizedb` installation instructions and to report `taxizedb` bugs.
+ThePlantList taxonomy as SQLite DB
+
+__TLDR:__ The sqlite file is up at <https://s3-us-west-2.amazonaws.com/taxize-dbs/plantlist.zip>
 
 Files
 =====
 
 * `data/`: database files
 * `scripts/`: scripts used to generate the files in `data/`
-
